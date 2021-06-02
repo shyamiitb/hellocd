@@ -7,7 +7,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HellocdApplication {
+@RestController
+@EnableAutoConfiguration
+public class HelloCdApplication {
 
 
 	@RequestMapping("/")
@@ -16,7 +18,7 @@ public class HellocdApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(HellocdApplication.class, args);
+		SpringApplication.run(HelloCdApplication.class, args);
 	}
 
 }
