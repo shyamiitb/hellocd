@@ -14,7 +14,7 @@ public class HelloCdApplication {
 
 	@RequestMapping("/")
 	String home() {
-		return "Hello World!";
+		return "Hello Continous Delivery!";
 	}
 
 	public static void main(String[] args) {
